@@ -6,12 +6,13 @@
   "scripts": {
     "start": "node app.js",
     "redis_start": "node redis_Test.js",
-    "redis_blue_start": "node redis&blueBird_Test.js"
+    "redis_blue_start": "node redisblueBird_Test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
+    "bluebird": "^3.7.2",
     "express": "^4.17.1",
     "redis": "^3.1.2"
   }

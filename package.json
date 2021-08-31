@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "redis_start": "node redis_Test.js",
+    "redis_blue_start": "node redis&blueBird_Test.js"
   },
   "author": "",
   "license": "ISC",
